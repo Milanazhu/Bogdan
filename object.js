@@ -9,7 +9,7 @@ myCity.country = 'USA';
 myCity.name = 'Milana';
 delete myCity.country;
 myCity ['popular'] = 'Yes';
-//myCity [countryName] = 'usa';
+myCity [countryName] = 'usa';// тут мы задаем новое свойство которое объявленно как const и имеет свои значения
 
 console.log(myCity);
 
