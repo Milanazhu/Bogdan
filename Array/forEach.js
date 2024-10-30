@@ -5,5 +5,5 @@ const myArray =
     3,
 ];
 // console.log(myArray);
-myArray.forEach(i => console.log(i * 2))
+myArray.forEach((i) => console.log(i))
 // console.log(myArray);
